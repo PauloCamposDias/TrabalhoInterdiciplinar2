@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main
+{
+    static Scanner leitor = new Scanner(System.in);
+    public static void main(String[] args)
+    {
+        int x, y, z;
+        System.out.println("X+Y=?");
+        System.out.print("X: ");
+        x = leitor.nextInt();
+        System.out.print("Y: ");
+        y = leitor.nextInt();
+        z=x+y;
+        System.out.print(x + "+" + y + "=" + z);
+    }
+}
